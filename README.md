@@ -37,7 +37,7 @@ This project is a simple web application built with Node.js and React that gener
 
     - macOS/Linux:
     
-    ```
+        ```
         No Api Required
         ```
 
