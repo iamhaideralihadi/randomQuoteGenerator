@@ -7,13 +7,13 @@ This project is a simple web application built with Node.js and React that gener
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/random-quote-generator.git
+    git clone https://github.com/iamhaideralihadi/randomQuoteGenerator.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd random-quote-generator
+    cd randomQuoteGenerator
     ```
 
 3. Install the dependencies:
@@ -28,35 +28,30 @@ This project is a simple web application built with Node.js and React that gener
 
     - Windows:
     
-        Create a `.env` file in the root directory and define the following environment variables:
 
         ```
-        REACT_APP_API_URL=your_api_url
+        No Api Required
         ```
 
-        Replace `your_api_url` with the URL of the API from which you fetch random quotes.
+        
 
     - macOS/Linux:
     
-        Create a `.env` file in the root directory and define the following environment variables:
-
-        ```bash
-        echo "REACT_APP_API_URL=your_api_url" > .env
+    ```
+        No Api Required
         ```
-
-        Replace `your_api_url` with the URL of the API from which you fetch random quotes.
 
 2. Start the development server:
 
     ```bash
-    npm start
+    npm run dev
     ```
 
-3. Open your browser and visit `http://localhost:3000` to view the application.
+3. Open your browser and visit `http://localhost:5173` to view the application.
 
 ## Usage
 
-- Click the "Generate Quote" button to fetch and display a random quote.
+- Click the "New Quote" button to fetch and display a random quote.
 
 - Share the generated quote on social media platforms by clicking the respective icons.
 
